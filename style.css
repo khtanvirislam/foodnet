@@ -1,7 +1,43 @@
+
+.navbar{
+    background-color: rgb(235, 88, 35);
+    border-radius: 20px;
+    
+}
+
+.navbar ul{
+    overflow: auto;
+
+}
+
+.navbar li{
+    float: left;
+    list-style: none;
+    padding: 3px 3px;
+    margin: 13px 20px;
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+.navbar li a:hover{
+    background-color: rgb(235, 160, 160);
+}
+.search{
+    float: right;
+    color: white;
+    margin: 0px 10px;
+    padding: 15px 60px;
+}
+.navbar input{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px 17px;
+}
 body{
     font-family: 'Poppins', sans-serif;
 }
-
 
 h1{
     font-size: 30px;   
@@ -65,13 +101,27 @@ h2{
 .last{
     width: 30%;
 }
-footer{
+.contanct-form{
     text-align: center;
+    background-color: rgb(236, 212, 198);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 20px;
+    
+}
+footer{
+
     font-size: 12px;
     color: lightgray;
     background-color: black;
     height: 200px;
     padding-top: 10px;
+
+}
+.color{
+    color: orangered;
 }
 #f-header{
     color: lightslategray;}
