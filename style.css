@@ -1,0 +1,69 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.color{
+    color: orangered; 
+}
+h1{
+    font-size: 30px;   
+}
+
+.upper{
+    display: flex;
+}
+
+.half-width{
+    width: 50%;
+    margin: 30px 20px;
+    padding: 30px 20px;
+}
+.resize{
+    height: 400px;
+    width: 260px;
+    margin-left: 140px;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.bg-photo{
+    background-image: url(images/shapes/7.png); 
+    background-repeat: no-repeat;
+}
+
+.singe-element{
+    text-align: center;
+}
+.food-item{
+    width: 100%;
+    box-shadow: 3px 3px 20px 10px gainsboro;
+    margin: 5%;
+    padding: 2%;
+    border-radius: 15px;
+    text-align: justify;
+}
+.resizer{
+    height:200px;
+    width: 250px;
+}
+h3{
+    font-size: 20px;
+}
+
+h2{
+    font-size: 25px;
+}
+
+
+footer{
+    text-align: center;
+    font-size: 12px;
+    color: lightgray;
+    background-color: black;
+    height: 200px;
+}
+#f-header{
+    color: lightslategray;}
